@@ -11,17 +11,17 @@ Intensity-Preserving Quantum Image Representation (IP-QIR)
 
  Description
 
-IP-QIR is a \*\*hybrid quantum image representation technique\*\* that focuses on \*\*preserving pixel intensity\*\* while minimizing qubit usage and circuit depth. This project implements IP-QIR using \*\*Qiskit\*\*, allowing efficient quantum image encoding and simulation.  
+IP-QIR is a hybrid quantum image representation technique that focuses on preserving pixel intensity while minimizing qubit usage and circuit depth. This project implements IP-QIR using Qiskit, allowing efficient quantum image encoding and simulation.  
 
 
 
 The project is applicable to:
 
-\- \*\*Synthetic images\*\*
+\*\*Synthetic images\*\*
 
-\- \*\*SAR images\*\*
+\*\*SAR images\*\*
 
-\- \*\*Medical images\*\*
+\*\*Medical images\*\*
 
 
 
@@ -29,15 +29,15 @@ The project is applicable to:
 
 
 
-\## Features
+## Features
 
-\- Resource-efficient quantum image encoding
+ Resource-efficient quantum image encoding
 
-\- Accurate \*\*pixel intensity preservation\*\*
+Accurate \*\*pixel intensity preservation\*\*
 
-\- Simulation using Qiskit
+ Simulation using Qiskit
 
-\- Supports grayscale image patches
+ Supports grayscale image patches
 
 
 
