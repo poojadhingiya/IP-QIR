@@ -99,4 +99,6 @@ The project is applicable to:
 git clone https://github.com/poojadhingiya/IP-QIR.git
 
 
+pip install qiskit matplotlib numpy
+
 
