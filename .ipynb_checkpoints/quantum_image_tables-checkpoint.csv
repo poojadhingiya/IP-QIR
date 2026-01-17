@@ -1,0 +1,14 @@
+Technique,Qubits Req.,Gate Count,Circuit Depth,Encoding Time (s),Scalability,Pixel Accuracy,Info Loss
+Qubit Lattice,16,Low,Low,Fast,Poor,High,None
+FRQI 2x2,3,26,18,0.003552,Limited,Probabilistic,Moderate
+FRQI 4x4,5,1092,705,0.145951,Limited,Probabilistic,Moderate
+NEQR 2x2,10,21,15,0.004013,Moderate,Exact,None
+NEQR 4x4,12,100,38,0.153213,Moderate,Exact,None
+MCQI,7,High,High,0.25,Poor,Probabilistic,Moderate
+GQIR,6,High,High,0.22,Better,Deterministic,Low
+BRQI,9,High,High,0.28,Poor,Bitwise Exact,Low
+QIRHSI,10,Very High,Very High,0.35,Poor,Good,Low
+NASS,6,Medium,Medium,0.18,Good,Probabilistic,Moderate
+FTQR,6,Medium,Medium,0.15,Limited,Phase-based,High
+QUALPI,6,High,High,0.23,Limited,Good,Moderate
+Proposed FRQI-Optimized,5,↓ ~30%,Reduced,↓ 0.08,Better,Improved,Lower
