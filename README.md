@@ -17,23 +17,22 @@ IP-QIR is a hybrid quantum image representation technique that focuses on preser
 
 The project is applicable to:
 
-\*\*Synthetic images\*\*
+Synthetic images
 
-\*\*SAR images\*\*
+SAR images
 
-\*\*Medical images\*\*
+Medical images
 
 
 
 ---
 
 
-
-## Features
+ Features
 
  Resource-efficient quantum image encoding
 
-Accurate \*\*pixel intensity preservation\*\*
+Accurate pixel intensity preservation
 
  Simulation using Qiskit
 
@@ -45,15 +44,15 @@ Accurate \*\*pixel intensity preservation\*\*
 
 
 
-\## Workflow
+# Workflow
 
-1\. \*\*Image Input\*\*  
+1\. Image Input 
 
 &nbsp;  Load synthetic, SAR, or medical image patches.
 
 
 
-2\. \*\*Preprocessing\*\*  
+2\. Preprocessing
 
 &nbsp;  - Resize images to \\(2^n \\times 2^n\\)  
 
@@ -61,25 +60,25 @@ Accurate \*\*pixel intensity preservation\*\*
 
 
 
-3\. \*\*Pixel-to-Angle Mapping\*\*  
+3\. Pixel-to-Angle Mapping
 
 &nbsp;  Compute \\(\\theta\_{x,y} = 2 \\cdot \\arccos(pI\_{x,y})\\) for each pixel.
 
 
 
-4\. \*\*Quantum Encoding (IP-QIR)\*\*  
+4\. Quantum Encoding (IP-QIR)
 
-&nbsp;  - Assign \*\*position qubits\*\* and \*\*intensity qubit\*\*  
+&nbsp;  - Assign position qubits and intensity qubit
 
-&nbsp;  - Apply \*\*Controlled Ry (θ) gates\*\*  
+&nbsp;  - Apply Controlled Ry (θ) gates
 
 &nbsp;  - Construct quantum circuit in Qiskit
 
 
 
-5\. \*\*Simulation\*\*  
+5\. Simulation  
 
-&nbsp;  - Run the quantum circuit on \*\*Qiskit simulator\*\*  
+&nbsp;  - Run the quantum circuit on Qiskit simulator  
 
 &nbsp;  - Evaluate intensity preservation and fidelity
 
@@ -89,7 +88,7 @@ Accurate \*\*pixel intensity preservation\*\*
 
 
 
-\## Installation
+# Installation
 
 1\. Clone the repository:
 
